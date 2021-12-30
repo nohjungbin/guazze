@@ -17,7 +17,7 @@ basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
         if (A_count == 1 && B_count == 1) {
             music.setTempo(145)
-            for (let index2 = 0; index2 < 5; index2++) {
+            for (let index2 = 0; index2 < 2; index2++) {
                 for (let index = 0; index <= 1; index++) {
                     music.playTone(740, music.beat(BeatFraction.Half))
                     music.playTone(831, music.beat(BeatFraction.Half))
