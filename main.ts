@@ -8,7 +8,7 @@ input.onButtonPressed(Button.A, function () {
     A_count += 1
 })
 input.onGesture(Gesture.SixG, function () {
-
+	
 })
 input.onButtonPressed(Button.B, function () {
     B_count += 1
@@ -18,7 +18,7 @@ basic.forever(function () {
         if (A_count == 1 && B_count == 1) {
             music.setTempo(145)
             for (let index2 = 0; index2 < 2; index2++) {
-                for (let index = 0; index <= 1; index++) {
+                for (let index3 = 0; index3 <= 1; index3++) {
                     music.playTone(740, music.beat(BeatFraction.Half))
                     music.playTone(831, music.beat(BeatFraction.Half))
                     music.playTone(587, music.beat(BeatFraction.Quarter))
@@ -71,7 +71,7 @@ basic.forever(function () {
                     music.playTone(494, music.beat(BeatFraction.Quarter))
                     music.playTone(554, music.beat(BeatFraction.Half))
                     music.playTone(494, music.beat(BeatFraction.Half))
-                    if (index == 1) {
+                    if (index3 == 1) {
                         music.playTone(494, music.beat(BeatFraction.Half))
                     } else {
                         music.playTone(554, music.beat(BeatFraction.Half))
@@ -190,15 +190,15 @@ basic.forever(function () {
             basic.showString("Fucking nyan cat")
         } else {
             if (A_count == 2 && B_count == 1) {
-
+            	
             } else {
                 if (true) {
-
+                	
                 } else {
                     if (true) {
-
+                    	
                     } else {
-
+                    	
                     }
                 }
             }
