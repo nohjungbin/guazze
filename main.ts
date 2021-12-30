@@ -28,7 +28,6 @@ basic.forever(function () {
                     music.playTone(554, music.beat(BeatFraction.Quarter))
                     music.playTone(494, music.beat(BeatFraction.Half))
                     music.playTone(494, music.beat(BeatFraction.Half))
-                    control.waitMicros(500)
                     music.playTone(494, music.beat(BeatFraction.Quarter))
                     music.playTone(554, music.beat(BeatFraction.Quarter))
                     music.playTone(587, music.beat(BeatFraction.Half))
